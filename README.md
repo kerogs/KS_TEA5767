@@ -7,6 +7,13 @@ The KS_TEA5767 library facilitates easy integration and control of the TEA5767 F
 
 </div>
 
+## Installation
+
+1. Download the library as a ZIP file from the [GitHub repository](https://github.com/yourusername/KS_TEA5767).
+2. Open the Arduino IDE.
+3. Go to `Sketch` > `Include Library` > `Add .ZIP Library...`.
+4. Select the downloaded ZIP file.
+
 ## List of functions
 
 | Function Name  | Input Parameter      | Returned Parameter | Description (English)                                                                                                |

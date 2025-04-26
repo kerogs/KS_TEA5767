@@ -9,7 +9,5 @@ getRSSI        KEYWORD2
 getRSSIdBm     KEYWORD2
 getStereo      KEYWORD2
 getHex         KEYWORD2
-getBin         KEYWORD2
-getDec         KEYWORD2
 getASCII       KEYWORD2
 setFrequency   KEYWORD2

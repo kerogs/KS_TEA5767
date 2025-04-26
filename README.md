@@ -51,3 +51,6 @@ void loop() {
 }
 
 ```
+
+### Schematic for using the TEA5767 with Arduino UNO (I²C)
+![schematic](/Schematic_KS_TEA5767_2025-04-26.png)

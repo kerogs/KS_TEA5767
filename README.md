@@ -2,7 +2,7 @@ The KS_TEA5767 library facilitates easy integration and control of the TEA5767 F
 
 <center>
 
-![GitHub Release](https://img.shields.io/github/v/release/kerogs/KS_TEA5767?include_prereleases&display_name=tag&style=for-the-badge&logo=version)
+[![GitHub Release](https://img.shields.io/github/v/release/kerogs/KS_TEA5767?include_prereleases&display_name=tag&style=for-the-badge)](https://github.com/kerogs/KS_TEA5767/releases/latest)
 
 </center>
 

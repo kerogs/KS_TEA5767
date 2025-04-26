@@ -32,6 +32,14 @@ The KS_TEA5767 library facilitates easy integration and control of the TEA5767 F
 | `getASCII`     | None                 | `String`           | Converts the status bytes received from TEA5767 to ASCII characters. Non-printable characters are replaced with ".". |
 | `setFrequency` | `float frequencyMHz` | None               | Sets the frequency of the TEA5767 module to the specified value in MHz.                                              |
 
+### List of codes
+|name|description|
+|-|-|
+|``example.ino``|A simple code that initializes the TEA5767 radio module, tunes to (default: 104.5 MHz), and periodically outputs signal quality information (PLL lock status, RSSI, RSSI in dBm, stereo status, and decoded information) every second.|
+|``frequency_info.ino``|A code that initializes the TEA5767 radio module, tunes to a defined frequency (default: 104.5 MHz), and displays a structured report of the signal parameters (PLL lock, RSSI, RSSI in dBm, stereo mode, hex and ASCII status) every 3 seconds.|
+|``frequency_scan.ino``|A code that scans the FM band from 87.5 MHz to 108.0 MHz, detecting stations based on RSSI threshold and PLL lock, and logging each station's frequency, signal strength, stereo/mono mode, and signal level in dBm, before providing a final summary.|
+|``frequency_plotter.ino``|A minimalist code that sets the TEA5767 module to 104.5 MHz and outputs the signal strength (RSSI in dBm) every second, intended for real-time plotting or signal monitoring.|
+|``frequency_plotter_multiple.ino``|A code that cycles through a predefined list of frequencies, measures the RSSI at each one, and outputs the results in sequence, allowing simultaneous signal monitoring across multiple FM channels.|
 ## Use the library
 
 ```c++
